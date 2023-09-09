@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ * main - Entry point
  *
- *Description: print all single digit numbers.
+ * Description: print all single digit numbers.
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -14,10 +14,10 @@ int main(void)
 
 	while (digit <= 9)
 	{
-		printf("%i". digit);
+		printf("%i", digit);
 		digit++;
 	}
-	printf("\n")
+	printf("\n");
 
 
 
