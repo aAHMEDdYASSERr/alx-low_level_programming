@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: .
+ * Description: print 0, 1, -9.
  *
  * Return: Always 0 (Success)
 */
@@ -18,8 +18,8 @@ int main(void)
 
 		if (digit != 9)
 		{
-			putchar(' ,');
-			putchar(' ,');
+			putchar(',');
+			putchar(' ');
 		}
 		digit++;
 
