@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- * Description: print aplhabet letters
+ * Description: print all aplhabet letters
  * Return: Always 0 (success)
 */
 
@@ -15,6 +15,7 @@ int main(void)
 		putchar(ch);
 		ch++;
 	}
-	putchar("\n");
+	putchar('\n');
+
 	return (0);
 }
