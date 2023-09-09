@@ -5,7 +5,7 @@
 /**
  * main - entry point
  * Description: graater than , smaller than or equal zero
- * Return : 0 (success)
+ * Return :Always 0 (success)
 */
 
 int main(void)
