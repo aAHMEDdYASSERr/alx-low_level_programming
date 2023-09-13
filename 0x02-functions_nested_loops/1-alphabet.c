@@ -1,12 +1,10 @@
 #include <main.h>
 
 /**
- * main - Entry point
- *
- * Description: .
- *
- * Return: Always 0 (Success)
+ * print_alphabet - utilizes on the _putchar function
 */
+
+
 void print_alphabet(void)
 {
 	int ch;
