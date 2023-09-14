@@ -2,9 +2,9 @@
 
 /**
  * print_last_digit - print last digit of a number.
- * 
+ *
  * @n: takes number input
- * 
+ *
  * return: lastdigit
 */
 void print_times_table(int n)
@@ -34,9 +34,10 @@ void print_times_table(int n)
 					_putchar((prod / 10) % 10 + 48);
 					
 				}
-				else if ((prod <= 99 && prod / 10) + 48);
+				else if (prod <= 99 && prod >= 10)
 					_putchar((prod / 10) + 48);
 				_putchar((prod % 10) + 48);
+				
 
 			}
 			_putchar('\n');
