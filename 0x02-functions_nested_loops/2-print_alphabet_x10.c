@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_x10
+ * pirint_alphabet_x10
 */
-	
+
 void print_alphabet_x10(void)
 {
 	int line, ch;
