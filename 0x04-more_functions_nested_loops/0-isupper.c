@@ -3,8 +3,8 @@
  * _isupper - check if c is upper
  *
  * @c: input for alphabet
- * \
- * return: 1 if its uppercase. 0 if not
+ *
+ * Return: 1 if its uppercase or 0 if not
 */
 
 int _isupper(int c)
