@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts: that prints a string, followed by a new
+ * _puts - that prints a string, followed by a new
  * @str: the pointer string
  * Return: string of the function
 */
