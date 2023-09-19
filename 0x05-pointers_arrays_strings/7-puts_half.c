@@ -2,7 +2,7 @@
 /**
  * puts_half - that prints half of a string, followed by a new line
  * @str : pointer of sring
- * Return: string
+ * Return: if odd print lenght - 1) / 2
 */
 
 
@@ -11,8 +11,12 @@ void puts_half(char *str)
 	int i;
 
 	for (i = 0; str[i] != '\0'; ++i)
+		;
+
+
+	i++;
+	for (i /= 2; str[i] != '\0'; i++)
 	{
-		if (i % 2 == 0)
 			_putchar(str[i]);
 	}
 	_putchar('\n');
