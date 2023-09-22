@@ -6,6 +6,7 @@
  * @c: character
  * Return: 1 or 0
 */
+
 int isLower(char c)
 {
 	 return (c >= 97 && c <= 122)
@@ -21,9 +22,9 @@ int isLower(char c)
 int isDeliniter(char c)
 {
 	int i;
-	char delimiter[] = " \t\n,.!?\"(){}"
+	char delimiter[] = " \t\n,.!?\"(){}";
 
-		for (i = 0; i < 12; i++)
+	for (i = 0; i < 12; i++)
 			if (c == delimiter[i])
 				return (1);
 	return (0);
