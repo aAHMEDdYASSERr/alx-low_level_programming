@@ -1,4 +1,39 @@
 #include "main.h"
+#include <stdio.h>
+
+/**
+ * isLower - determines whether ascil is lowercase
+ * @c: character
+ * Return: 1 or 0
+*/
+int isLower(char c)
+{
+	 return (c >= 97 && c <= 122)
+}
+
+
+/**
+ * isDeliniter - determines whether ascil is a del
+ * @c: character
+ * Return: 1 or 0
+*/
+
+int isDeliniter(char c)
+{
+	int i;
+	char delimiter[] = " \t\n,.!?\"(){}"
+
+		for (i = 0; i < 12; i++)
+			if (c == delimiter[i])
+				return (1);
+	return (0);
+}
+
+
+
+
+
+
 /**
  * cap_string - a function that capitalizes all words of a string
  * @s: pointer
@@ -10,19 +45,19 @@
 char *cap_string(char *s)
 {
 	char *ptr = s;
-	int foundd = 1;
+	int foundDelimit = 1;
 
 	while (*s)
 	{
 		if (isDelimiter(*s))
-			foundd = 1;
-		else if (isLower(*s) && foundd)
+			foundDelimit = 1;
+		else if (isLower(*s) && foundDelimit)
 		{
 			*s -= 32;
-			foundd = 0;
+			foundDelimit = 0;
 		}
 		else
-			foundd = 0;
+			foundDelimit = 0;
 		s++;
 	}
 	return (ptr);
