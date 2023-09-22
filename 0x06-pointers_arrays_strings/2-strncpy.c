@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strncpy: function that copies a string.
+ * _strncpy - A function that copies a string.
  *
  * @dest: frist pointer
  * @src: second pointer
