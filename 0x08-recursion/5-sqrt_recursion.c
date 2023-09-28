@@ -15,7 +15,7 @@ return (square(n, 1));
  * square - find square root
  * @n: int
  * @val: int
- * Return int
+ * Return: int
 */
 int square(int n, int val)
 {
