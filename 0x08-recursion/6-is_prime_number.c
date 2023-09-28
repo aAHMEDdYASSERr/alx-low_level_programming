@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * is_prime_number - function that returns 1 if the input integer is a prime number
+ * is_prime_number - function that returns 1
+ * if the input integer is a prime number
  * , otherwise return 0
  * @n: int
+ * @othrn: int
  * Return: 0 or 1
 */
 
@@ -17,7 +19,7 @@ int is_prime_number(int n)
 }
 
 /**
- * check_prime - check all number < n if they can divide it 
+ * check_prime - check all number < n if they can divide it
  * @n: int
  * @othrn: int two
  * Return: int
