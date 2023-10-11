@@ -34,11 +34,11 @@ int op_sub(int a, int b)
 */
 int op_mul(int a, int b)
 {
-        return (a * b);
+	return (a * b);
 }
 
 /**
- * op_sub - sub
+ * op_div - sub
  * @a: int
  * @b: two int
  *
@@ -46,11 +46,11 @@ int op_mul(int a, int b)
 */
 int op_div(int a, int b)
 {
-        return (a / b);
+	return (a / b);
 }
 
 /**
- * op_sub - sub
+ * op_mod - sub
  * @a: int
  * @b: two int
  *
@@ -58,5 +58,5 @@ int op_div(int a, int b)
 */
 int op_mod(int a, int b)
 {
-        return (a % b)
+	return (a % b)
 }
