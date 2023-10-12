@@ -8,7 +8,7 @@
 
 void format_char(char *separator, va_list ap)
 {
-	printf("%s%c", separator, va_arg(ap, char));
+	printf("%s%c", separator, va_arg(ap, int));
 }
 
 /**
@@ -56,7 +56,7 @@ void format_string(char *separator, va_list ap)
 
 void print_all(const char * const format, ...)
 {
-	| int i = 0, j;
+	int i = 0, j;
 	char *separator = "";
 	va_list ap;
 	token_t tokens[] = {
@@ -67,7 +67,7 @@ void print_all(const char * const format, ...)
 		{NULL, NULL}
 	};
 	va_start(ap, format);
-	| while (fomat && format[i])
+       	while (fomat && format[i])
 	{
 		j = 0;
 		while (tokens[j].token)
