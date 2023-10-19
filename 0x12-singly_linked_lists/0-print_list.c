@@ -21,7 +21,7 @@ int _strlen(char *s)
  * print_list - prints a linked
  * @h: pointer
  *
- * Rturn: size of list
+ * Return: size of list
 */
 
 size_t print_list(const list_t *h)
@@ -30,7 +30,7 @@ size_t print_list(const list_t *h)
 
 	while (h)
 	{
-		printf("[%d] %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
+		printf("(%d) %s\n", _strlen(h->str), h->str ? h->str : "(nil)");
 		h = h->next;
 		i++;
 	}
