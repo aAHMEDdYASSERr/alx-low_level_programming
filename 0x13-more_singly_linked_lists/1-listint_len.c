@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * lisint_len - prints
+ * listint_len - prints
  * @h: pointer
  *
  * Return: size
