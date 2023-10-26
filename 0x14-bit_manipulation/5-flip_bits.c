@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- *  - function
- * @: pointer
+ *  flip_bits - function
+ * @n: pointer
+ * @m: int
  * Return: int
 */
 
