@@ -1,4 +1,4 @@
-#iclude "main"
+#include "main"
 
 /**
  * binary_to_uint - function
