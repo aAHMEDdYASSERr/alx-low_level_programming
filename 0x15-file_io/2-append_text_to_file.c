@@ -21,7 +21,8 @@ int _strlen(char *s)
 
 /**
  * append_text_to_file - function
- * @: pointer
+ * @filename: pointer
+ * @text_content: text
  * Return: int
 */
 
